@@ -7,7 +7,7 @@
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "main": "index.js",
   "scripts": {
-    "build": "babel ./__fixtures__/input.js -o ./__fixtures__/output.js",
+    "build": "babel ./__fixtures__/example/code.js -o ./__fixtures__/example/output.js",
     "test": "jest"
   },
   "devDependencies": {
